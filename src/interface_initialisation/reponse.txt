@@ -1,0 +1,15 @@
+PART 1
+
+a) look at file A.java
+
+b) look at file B.java and C.java
+we have to make "B extends C" and "C implements A"
+
+c)
+
+d) C can't be Interface:
+    -because he must Implements A and interface can't implements another interface
+    -another way is to make "interface C extend A" but we have another problem if we make this,
+     we can't do "arrA[2]  =  new C();" without implement f() , g() and h() methods
+
+PART 2
